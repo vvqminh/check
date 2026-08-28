@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khiet nhi's Birthday</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div id="stars"></div>
+    <div id="petals"></div>
+    <div id="bloom">
+      <span id="reveal-hint">chạm để mở thư</span>
+    </div>
+
+    <h1>Blow the candle</h1>
+    
+    <div id="candle">
+       <div class="stripe"></div>
+       <div class="stripe"></div>
+       <div class="stripe"></div>
+       <div class="stripe"></div>
+       <div class="stripe"></div>
+       <div id="top">
+         <div class="glow" id="glow"></div>
+         <div class="smoke"></div>
+         <div class="smoke"></div>
+         <div class="smoke"></div>
+         <div id="knot"></div>
+         <div class="burn" id="flame"></div>
+       </div>
+       <div id="hint">
+         <span class="hint-text">press</span>
+         <span class="arrow">↓</span>
+       </div>
+    </div>
+
+    <!-- Khung thư chúc mừng -->
+    <div id="letter">
+        <div class="letter-content">
+            <img class="corner-flower corner-flower-tl" src="assets/flower-pink.png" alt="">
+            <img class="corner-flower corner-flower-br" src="assets/flower-lotus.png" alt="">
+            <div class="letter-inner">
+                <h2> Happy birthday, khiet nhi. </h2>
+                <div class="divider">
+                    <span class="divider-line"></span>
+                    <svg class="divider-flower" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                        <g fill="none" stroke="#d98aa0" stroke-width="1.4">
+                            <path d="M20 20 C20 12 15 8 20 4 C25 8 20 12 20 20 Z"/>
+                            <path d="M20 20 C28 20 32 15 36 20 C32 25 28 20 20 20 Z"/>
+                            <path d="M20 20 C20 28 25 32 20 36 C15 32 20 28 20 20 Z"/>
+                            <path d="M20 20 C12 20 8 25 4 20 C8 15 12 20 20 20 Z"/>
+                        </g>
+                        <circle cx="20" cy="20" r="2.6" fill="#e8a2b5"/>
+                    </svg>
+                    <span class="divider-line"></span>
+                </div>
+                <p>Chúc chị tuổi mới luôn mạnh khỏe, hạnh phúc và vẫn xinh đẹp như trước tới giờ nhe</p>
+                <p>Hy vọng tuổi mới sẽ mang đến cho chị nhiều may mắn, thành công cùng những điều tốt đẹp nhất năm cuối cấp</p>
+                <p class="signature">✨ Quang Minh ✨</p>
+                <button id="close-btn">Đóng lại</button>
+            </div>
+        </div>  
+    </div>
+</body>
+</html>
